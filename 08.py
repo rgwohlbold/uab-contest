@@ -1,2 +1,6 @@
+#!/usr/bin/python3
+
 def todec(i):
-    return int(i, 2)
+    return int(str(i), 2)
+
+print(todec(110010))
