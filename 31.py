@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import random
 
 def distance(w1, w2):

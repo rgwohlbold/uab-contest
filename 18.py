@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 def rotate(s):
     return s[-2::] + s[:-2:]

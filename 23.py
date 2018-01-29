@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 dic = ["alabama","blue","birmingham","color","story","street","world", "knowledge"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 def missing(list):
     for i in range(1, len(list) + 2):
