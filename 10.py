@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-def missing(list):
-    for i in range(1, len(list) + 2):
-        if i not in list:
-            return i
+def missing(lst):
+    for x,y in enumerate(lst):
+        if (x + 1 != y):
+            return x + 1
+    return x + 1
 
 print(missing([1, 2, 3, 5]))
