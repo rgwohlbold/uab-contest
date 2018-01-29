@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def merge(l1, l2):
     l1 += l2
     return sorted(l1)

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def phone(numbers):
     dallas, tallahassee, birmingham, nashville, other = 0,0,0,0,0
     for number in numbers:

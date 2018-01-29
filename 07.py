@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def check(number):
     digits = list(map(lambda x: int(x), str(number)))
     odds = [ digits[x] for x in range(0, 15, 2) ]

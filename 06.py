@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import math
 
 def distance(p1, p2):
