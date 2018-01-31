@@ -2,15 +2,14 @@
 
 # Return the check digit of a 15-digit credit card number
 def check(number):
-
     # Get number as a list of digits
-    digits = list(map(lambda x: int(x), str(number)))
+    digits = list(map(int, str(number)))
 
     # Get the digits at odd positions (positions start as one)
-    odds = [ digits[x] for x in range(0, 15, 2) ]
+    odds = digits[0::2]
 
     # Get the digits at even positions (positions start as one)
-    evens = [ digits[x] for x in range(1, 15, 2) ]
+    evens = digits[1::2]
 
     # Get the number of odd-positioned numbers greater than 4
     m4 = len(list(filter(lambda x: x > 4, odds)))

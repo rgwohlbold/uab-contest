@@ -1,20 +1,16 @@
 #!/usr/bin/python3
 
-def greatest(l):
-    max = 0
-    i = 0
-    for n in l:
-        sum = 0
-        for m in l[i::]:
-            sum += m
-            if sum > max:
-                max = sum
-        i += 1
-    return max
+def greatest(thelist):
+    maxvalue = 0
+    runningsum = 0
+    for number in thelist:
+        if runningsum < 0:
+            runningsum = 0
+        runningsum += number
+        if runningsum > maxvalue:
+           maxvalue = runningsum
+    return maxvalue 
 
-
-
-
-print(greatest([2, -5000]))
+print(greatest([1,2,-2,4]))
 
 
